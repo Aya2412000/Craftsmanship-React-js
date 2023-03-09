@@ -1,0 +1,30 @@
+.text,
+.photo {
+  width: 50%;
+}
+.p {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  text-align: initial;
+}
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+  }
+  .photo,
+  .text {
+    width: 100%;
+  }
+  .img {
+    border-radius: 15px;
+  }
+  .photo {
+    border-radius: 15px;
+    box-shadow: -4px 5px 5px grey;
+  }
+  .p {
+    font-size: 0.8rem;
+    padding-top: 0.1rem;
+  }
+}

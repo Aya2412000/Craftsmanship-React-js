@@ -10,7 +10,7 @@ export default function NavItems() {
   return items.map((link,index)=>{
     return(
         <NavLinks 
-        color={route.pathname === link.navLinks ? theme.primary : ""}
+         color={route.pathname === link.navLinks ? theme.primary : ""}
         navLinks={link.navLinks} 
         navText={link.navText} 
         key={index}/>

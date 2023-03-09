@@ -2,18 +2,18 @@ export default function Links(){
     return  [
       {
           navLinks:'/',
-          navText:'Home'
+          navText:'الرئسية'
       },
       {
           navLinks:'/services',
-          navText:'Services'
+          navText:'الخدمات'
       },
       {
-          navLinks:'/about',
-          navText:'About'
+          navLinks:'#about',
+          navText:'عَـنَّـــا'
       },
       {
           navLinks:'/contact',
-          navText:'Contact'
+          navText:'تواصل معنا'
       },
   ]}
